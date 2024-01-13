@@ -1,0 +1,72 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    margin-top: 20px;
+  }
+  
+  .content-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .image-container {
+    flex: 0 0 auto;
+    margin-right: 30px; /* Adjust as needed */
+  }
+  
+  .profile-image {
+    width: 230px; /* Adjust as needed */
+    height: 230px; /* Adjust as needed */
+    border-radius: 100%;
+    object-fit: cover;
+  }
+  
+  .description-container {
+    flex: 1;
+    text-align: left;
+  }
+
+  .waving-hand {
+    display: inline-block;
+    animation: wave 2s infinite linear; /* Adjust the animation duration as needed */
+  }
+  
+  @keyframes wave {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(-30deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(30deg);
+    }
+  }
+
+  .links-container {
+    display: flex;
+    text-align: left;
+    gap: 10px; /* Adjust the gap as needed */
+    color: black;
+  }
+
+*/
+.projects-container {
+    margin-top: 20px;
+}
+
+.mainHeader-text {
+    color: rgb(32, 32, 32);
+    font-weight: bold;
+}
+.header2-text {
+    color: rgb(75, 75, 75);
+    font-weight: normal;
+}
